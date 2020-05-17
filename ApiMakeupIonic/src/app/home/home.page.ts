@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MakuepService } from '../services/makuep.service';
+import { observable } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(
+    private makuepService: MakuepService
+  ) {
+
+    this.makuepService.getProducts().subscribe((products) => {
+      console.log('produtso', products);
+    })
+  }
+
+
 
 }
