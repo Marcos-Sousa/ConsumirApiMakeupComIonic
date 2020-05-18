@@ -1,5 +1,5 @@
 # Consumir Api Makeup Com Ionic
-Demostrar, a simplicidade de consumir uma API com IONIC
+Demostrar, a simplicidade de consumir uma API com IONIC 5
 
 ## Api Makeup
 O intuito desse projeto, é algo bem simples, é demostrar como é facil consumir uma api, a api em questão,
